@@ -9,8 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration
 @ComponentScan
 public class MyappApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(MyappApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MyappApplication.class, args);
+    }
 }
