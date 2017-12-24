@@ -19,3 +19,8 @@
 -	__DELETE__
 	-	http://localhost:8080/room/reservation/v1/123
 	-	Result: __204 No Content__ with empty body
+
+### Frontend notes:
+-	By default, __ng new__ will init the project as a Git repo. Then the flag __skip-git__ should be passed.
+	-	__ng new angular2 --skip-git__
+		
